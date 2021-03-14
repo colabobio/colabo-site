@@ -1,0 +1,35 @@
+baseURL = "https://co-labo.org/"
+languageCode = "en-us"
+title = "CoLabo"
+theme = "accessible-minimalism"
+disableHugoGeneratorInject = true
+enableRobotsTXT = true
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "Team"
+    url = "/team/"
+    weight = 2
+  [[menu.main]]
+    name = "Projects"
+    url = "/projects/"
+    weight = 3
+  [[menu.main]]
+    name = "Posts"
+    url = "/posts/"
+    weight = 4
+
+[params]
+    # Provide some metadata for search and indexing services
+    description = "Website of the Colubri Laboratory (Co-Labo)"
+
+[Author]
+    name = "Andrés Colubri"
+    email = "andres.colubri@umsasmed.edu"
+
+[Social]
+    twitter = "colabobio"

@@ -1,0 +1,17 @@
+baseURL = "https://co-labo.org/"
+languageCode = "en-us"
+title = "CoLabo"
+theme = "colabo-landing"
+#googleAnalytics = ""
+disableKinds = ["taxonomy", "taxonomyTerm"]
+
+[params]
+    # Provide some metadata for search and indexing services
+    description = "Website of the Colubri Laboratory (Co-Labo)"
+
+[Author]
+    name = "Andrés Colubri"
+    email = "andres.colubri@umsasmed.edu"
+
+[Social]
+    twitter = "colabobio"
