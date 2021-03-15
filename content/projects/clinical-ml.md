@@ -1,6 +1,5 @@
 ---
-title: "About"
-weight: 2
+title: "ML for clinical prediction"
 ---
 
 ## ML for clinical prediction

@@ -1,7 +1,5 @@
 ---
-title: "Projects"
-weight: 3
-improvecontrast: true
+title: "Art & science outreach"
 ---
 
 ## Art & science outreach
