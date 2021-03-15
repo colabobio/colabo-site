@@ -3,8 +3,8 @@ body {
   position: relative;
   width: 100%;
   height: 100%;
-  color: white;
-  background-color: black;
+  color: black;
+  background-color: white;
 }
 
 html {
@@ -41,12 +41,12 @@ p {
 
 a {
   transition: all 0.2s ease-in-out;
-  color: #42DCA3;
+  color: #d4242d;
 }
 
 a:focus, a:hover {
-  text-decoration: none;
-  color: #1d9b6c;
+  text-decoration: underline;
+  color: #d4242d;
 }
 
 #mainNav {
@@ -118,7 +118,7 @@ header {
   padding: 200px 0;
   text-align: center;
   color: white;
-  background: url("../img/section0-bg.jpg") no-repeat bottom center scroll;
+  /* background: url("../img/section0-bg.jpg") no-repeat bottom center scroll; */
   background-color: black;
   background-size: cover;
 }
@@ -179,7 +179,7 @@ header p {
 
 .section-2 {
   color: white;
-  background: url("../img/section2-bg.jpg") no-repeat center center scroll;
+  /* background: url("../img/section2-bg.jpg") no-repeat center center scroll; */
   background-color: black;
   background-size: cover;
 }
@@ -208,16 +208,16 @@ header p {
 }
 
 .btn-default {
-  color: #42DCA3;
-  border: 1px solid #42DCA3;
+  color: #d4242d;
+  border: 1px solid #d4242d;
   background-color: transparent;
 }
 
 .btn-default:focus, .btn-default:hover {
-  color: black;
-  border: 1px solid #42DCA3;
+  color: white;
+  border: 1px solid #d4242d;
   outline: none;
-  background-color: #42DCA3;
+  background-color: #d4242d;
 }
 
 ul.banner-social-buttons {

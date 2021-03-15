@@ -6,4 +6,4 @@ improvecontrast: true
 
 # COLABO
 
-The Colubri Lab at the University of Massachusetts Medical School is a "collaboratory"
+Welcome to the Colubri Lab at the University of Massachusetts Medical School!

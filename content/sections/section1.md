@@ -5,4 +5,6 @@ weight: 2
 
 ## About CoLabo
 
-The research interests of our collaboratory are (1) to develop novel platforms to conduct large-scale, distributed simulations of processes such as epidemics and evolution, (2) to create the algorithms and tools needed to run such simulations and visualize the results, (3) to use the data and insights derived from these models and simulations to engage with a wider audience through science education, collaboration with experts from other fields, and (4) to pursue of artistically-motivated projects that interrogate the nature of scientific research and its effects in the world and society at large.
+The Colubri Laboratory is a “collaboratory”, an open and inclusive space that aims at bringing individuals with different backgrounds and interests. The research in the CoLabo integrates data visualization, machine learning, and mobile technologies to create  innovative tools for biomedical research, education, and outreach. 
+
+Currently, a big focus is digital epidemiology through participatory simulations. We are developing [Operation Outbreak](https://operationoutbreak.org/), an infectious disease simulation platform that uses smartphones to spread virtual pathogens over Bluetooth and to generate data for STEM education and epidemiological modeling.

@@ -6,6 +6,6 @@ improvecontrast: true
 
 ## Projects
 
-Co-Labo projects integrate machine learning, digital epidemiology, mobile health, and data visualization to create novel methods and tools with impact in infectious disease preparedness, response, and education.
+Our projects integrate data visualization, machine learning, and mobile technologies to create software tools for bioinformatics research, STEAM education, and artistic experimentation.
 
 {{< big-button text="See projects" href="https://andrescolubri.net/projects" >}}
