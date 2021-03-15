@@ -8,4 +8,4 @@ improvecontrast: true
 
 Our projects integrate data visualization, machine learning, and mobile technologies to create software tools for bioinformatics research, STEAM education, and artistic experimentation.
 
-{{< big-button text="See projects" href="https://andrescolubri.net/projects" >}}
+{{< big-button text="See projects" href="/projects" >}}
