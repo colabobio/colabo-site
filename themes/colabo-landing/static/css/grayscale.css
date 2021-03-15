@@ -160,8 +160,8 @@ header p {
   margin-top: 15px;
   line-height: 45px;
   transition: background 0.3s ease-in-out;
-  color: white;
-  border: 2px solid white;
+  color: #d4242d;
+  border: 2px solid #d4242d;
   border-radius: 100% !important;
   background: transparent;
 }
@@ -169,7 +169,7 @@ header p {
 .btn-circle:focus, .btn-circle:hover {
   color: white;
   outline: none;
-  background: rgba(255, 255, 255, 0.1);
+  background: #d4242d;
 }
 
 .content-section {
