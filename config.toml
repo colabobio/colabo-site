@@ -5,6 +5,8 @@ theme = "colabo-landing"
 #googleAnalytics = ""
 disableKinds = ["taxonomy", "taxonomyTerm"]
 
+datadir = "data"
+
 [params]
     # Provide some metadata for search and indexing services
     description = "Website of the Colubri Laboratory (Co-Labo)"

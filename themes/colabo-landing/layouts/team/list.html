@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
+	<head>
+	{{ partial "head_team.html" . }}
+	</head>
+	<body>
+		<div class="container">	
+				{{ partial "header_team.html" . }}
+			<div class="main">
+				<ul id="og-grid" class="og-grid">
+					{{ range $.Site.Data.items.items }}
+					<li>
+						<a href="{{.url}}" data-largesrc="{{.image}}" data-title="{{.title}}" data-description="{{.description }}" data-buttontext="{{.buttontext}}">
+							<img src="{{.thumb}}" alt="{{.alt}}"/>
+						</a>
+					</li>
+					{{ end }}
+				</ul>
+				{{ partial "footer_team.html" . }}
+			</div>
+		</div>
+		{{ partial "scripts.html" . }}
+	</body>
+</html>

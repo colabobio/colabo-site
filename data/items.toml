@@ -1,0 +1,14 @@
+[[items]]
+title = "Andrés Colubri"
+image = "../img/full/1.png"
+thumb = "../img/thumbs/1.png"
+alt = "Andrés Colubri"
+description = "Principal Instigator."
+url = "https://andrescolubri.net/"
+[[items]]
+title = "Kelsey Butler"
+image = "../img/full/2.png"
+thumb = "../img/thumbs/2.png"
+alt = "Kelsey Butler"
+description = "Kelsey holds a B.A. in Psychology from the University of Vermont and a B.S. in Chemistry from Castleton University. Her current project is focused on using machine learning techniques to develop a model to predict outcome in Lassa fever patients. When she isn't in the lab, she enjoys running, yoga, and gardening."
+url = "https://github.com/aerohub/hugrid"
