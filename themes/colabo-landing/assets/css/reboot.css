@@ -11,8 +11,8 @@ body {
 	font-size: 1rem;
 	font-weight: 400;
 	line-height: 1.4;
-	color: #ddd;
-	background-color: #1b1b1b;
+	color: rgb(2, 2, 2);
+	background-color: #ffffff;
 	-webkit-text-size-adjust: 100%;
 	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
@@ -139,12 +139,12 @@ sup {
 }
 
 a {
-	color: #f8ae00;
+	color: #ffffff;
 	text-decoration: none;
 }
 
 a:hover {
-	color: #fff;
+	color: #d4242d;
 	text-decoration: underline;
 }
 
@@ -313,7 +313,7 @@ legend {
 }
 
 mark {
-	background-color: #f8ae00;
+	background-color: #ffffff;
 }
 
 progress {

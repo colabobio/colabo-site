@@ -18,7 +18,7 @@ body {
 
 blockquote {
 	padding: 0 1rem;
-	border-left: 5px solid #f8ae00;
+	border-left: 5px solid #ffffff;
 }
 
 blockquote footer {
@@ -148,7 +148,7 @@ th {
 }
 
 .logo:hover {
-	color: #f8ae00;
+	color: #ffffff;
 	text-decoration: none;
 }
 
@@ -177,7 +177,7 @@ th {
 	border: 0;
 	border-left: 1px solid #333;
 	outline: 0;
-	fill: #f8ae00;
+	fill: #ffffff;
 }
 
 .main-nav__btn:focus,
@@ -464,7 +464,7 @@ button:not(:-moz-focusring):focus > .main-nav__btn-box {
 .toc {
 	padding: .5rem;
 	margin-bottom: 1rem;
-	color: #f8ae00;
+	color: #ffffff;
 	list-style: none;
 	background-color: #111;
 }
@@ -550,8 +550,8 @@ button:not(:-moz-focusring):focus > .main-nav__btn-box {
 .share__icon {
 	width: 32px;
 	height: 32px;
-	fill: #f8ae00;
-	stroke: #f8ae00;
+	fill: #ffffff;
+	stroke: #ffffff;
 }
 
 .share__icon:hover {
