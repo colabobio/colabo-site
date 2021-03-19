@@ -8,6 +8,6 @@ weight: 4
 Feel free to reach out if you are interested in joining the lab, collaborating, or simply have questions about our research.
 
 {{< socialhandles >}}
-    {{< twitter user="colabobio" >}}
-    {{< github user="colabobio" >}}
+    {{< email email="labo@co-labo.org" >}}
+    {{< twitter user="colabobio" >}}    
 {{< /socialhandles >}}
