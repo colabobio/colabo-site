@@ -1,14 +1,18 @@
 <!DOCTYPE html>
 <html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
 	<head>
-	{{ partial "head_team.html" . }}
+	{{ partial "team/head.html" . }}
 	</head>
 	<body>
 		<div class="container">	
-				{{ partial "header_team.html" . }}
+				{{ partial "team/header.html" . }}
+
 			<div class="main">
+
+				<h2>Faculty</h2>
+
 				<ul id="og-grid" class="og-grid">
-					{{ range $.Site.Data.items.items }}
+					{{ range $.Site.Data.team.faculty }}
 					<li>
 						<a href="{{.url}}" data-largesrc="{{.image}}" data-title="{{.title}}" data-description="{{.description }}" data-buttontext="{{.buttontext}}">
 							<img src="{{.thumb}}" alt="{{.alt}}"/>
@@ -16,9 +20,23 @@
 					</li>
 					{{ end }}
 				</ul>
-				{{ partial "footer_team.html" . }}
+
+				<h2>Rotation Students</h2>
+
+				<ul id="og-grid" class="og-grid">
+					{{ range $.Site.Data.team.rotation_students }}
+					<li>
+						<a href="{{.url}}" data-largesrc="{{.image}}" data-title="{{.title}}" data-description="{{.description }}" data-buttontext="{{.buttontext}}">
+							<img src="{{.thumb}}" alt="{{.alt}}"/>
+						</a>
+					</li>
+					{{ end }}
+				</ul>
+	
+
+				{{ partial "team/footer.html" . }}
 			</div>
 		</div>
-		{{ partial "scripts.html" . }}
+		{{ partial "team/scripts.html" . }}
 	</body>
 </html>
