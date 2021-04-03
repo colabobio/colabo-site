@@ -1,5 +1,6 @@
 ---
-title: "Operation Outbreak"
+title: "Digital Epidemiology"
+index: 1
 copyright: "CoLabo 2021"
 ---
 

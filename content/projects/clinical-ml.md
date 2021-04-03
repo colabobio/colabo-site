@@ -1,5 +1,6 @@
 ---
 title: "ML for clinical prediction"
+index: 2
 copyright: "CoLabo 2021"
 ---
 

@@ -1,5 +1,6 @@
 ---
 title: "Visualization of genomic datasets"
+index: 3
 copyright: "CoLabo 2021"
 ---
 
