@@ -1,11 +1,11 @@
 <!doctype html>
 <html lang="{{ .Site.LanguageCode }}">
     <head>
-        {{ partial "head.html" . }}
+        {{ partial "projects/head.html" . }}
     </head>
     <body id="page-top">
-        {{- partial "header.html" . -}}
+        {{- partial "projects/header.html" . -}}
         {{- block "main" . }}{{- end }}
-        {{- partial "footer.html" . -}}
+        {{- partial "projects/footer.html" . -}}
     </body>
 </html>

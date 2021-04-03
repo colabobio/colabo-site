@@ -1,6 +1,6 @@
 {{ define "main" }}
 	<main class="main">
-		{{ partial "breadcrumb.html" . }}
+		{{ partial "projects/breadcrumb.html" . }}
 		<div class="single block">
 			<article class="entry">
 				{{- partial "entry/featured.html" (dict "page" . "IsSingle" true) }}
@@ -17,7 +17,7 @@
 			</article>
 		</div>
 	</main>
-	{{ partial "authorbox.html" . }}
-	{{ partial "related.html" . }}
-	{{ partial "comments.html" . }}
+	{{ partial "projects/authorbox.html" . }}
+	{{ partial "projects/related.html" . }}
+	{{ partial "projects/comments.html" . }}
 {{ end }}
