@@ -3,10 +3,15 @@
 		{{ partial "projects/breadcrumb.html" . }}
 		<div class="single block">
 			<article class="entry">
+
 				{{- partial "entry/featured.html" (dict "page" . "IsSingle" true) }}
 				{{- partial "entry/meta.html" (dict "page" . "class" "mb") }}
-				<h1 class="entry__title">{{ .Title }}</h1>
+				<div class="page__logo">
+					<a href="{{ .Site.BaseURL }}"><img src="../../img/colabo-logo-black-background.png" alt="Home"></a> 
+   				    <h1 class="entry__title">{{ .Title }}</h1>
+				</div>
 				{{- partial "entry/toc.html" . }}
+
 				<div class="entry__content">{{ .Content }}</div>
 				{{ if or (.Param "share") (isset $.Params "tags") }}
 				<footer class="entry__footer">

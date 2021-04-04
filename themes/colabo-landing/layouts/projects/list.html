@@ -3,7 +3,14 @@
 		{{ partial "projects/breadcrumb.html" . }}
 		{{- if or .Title .Content }}
 		<div class="page block">
-			{{ with .Title }}<h1 class="page__title">{{ . }}</h1>{{ end }}
+
+			<div class="page__logo">
+			<a href="{{ .Site.BaseURL }}"><img src="../img/colabo-logo-black-background.png" alt="Home"></a>
+			{{ with .Title }}			
+			<h1 class="page__title">{{ . }}</h1>
+			{{ end }}
+		    </div>
+
 			{{ with .Content }}<div class="page__content{{ if not $.Title }} page__content--notitle{{ end }}">{{ . }}</div>{{ end }}
 		</div>
 		{{- end }}

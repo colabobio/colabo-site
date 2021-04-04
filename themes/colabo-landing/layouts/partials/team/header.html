@@ -1,3 +1,4 @@
-			<header class="clearfix">
-				<h1>{{ with .Site.Params.title }}{{ . | markdownify }}{{ end }}<span>{{ with .Site.Params.subtitle }}{{ . | markdownify }}{{ end }}</span></h1>
-			</header>
+<header class="clearfix">
+	<a href="{{ .Site.BaseURL }}"><img class="logo" src="../img/colabo-logo-white-background.png" alt="Home"></a>
+	<h1>{{ with "Lab Members & Collaborators" }}{{ . | markdownify }}{{ end }}<span>{{ with .Site.Params.subtitle }}{{ . | markdownify }}{{ end }}</span></h1>
+</header>

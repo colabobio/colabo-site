@@ -27,12 +27,12 @@ blockquote footer {
 
 pre {
 	padding: 1.25rem;
-	background-color: #111;
+	background-color: #000000;
 }
 
 code {
 	padding: 1px 3px;
-	background-color: #111;
+	background-color: #000000;
 	border-radius: 2px;
 }
 
@@ -52,7 +52,7 @@ figure {
 
 figcaption {
 	padding: .5rem;
-	background-color: #111;
+	background-color: #000000;
 }
 
 img {
@@ -99,7 +99,7 @@ th {
 }
 
 .btn {
-	background-color: #111;
+	background-color: #000000;
 	border-radius: 3px;
 }
 
@@ -112,8 +112,8 @@ th {
 .header {
 	margin: 0 0 .3125rem;
 	overflow: auto;
-	background-color: #2a2a2a;
-	border-color: #333;
+	background-color: #000000;
+	border-color: rgb(0, 0, 0);
 	border-style: solid;
 	border-width: 0 0 1px;
 }
@@ -121,9 +121,9 @@ th {
 .block {
 	padding: .875rem;
 	margin: .1875rem 0;
-	color: #eee;
-	background-color: #2a2a2a;
-	border-color: #333;
+	color: rgb(255, 255, 255);
+	background-color: #000000;
+	border-color: rgb(0, 0, 0);
 	border-style: solid;
 	border-width: 1px 0;
 }
@@ -173,7 +173,7 @@ th {
 	padding: 0;
 	font-size: 1em;
 	cursor: pointer;
-	background-color: #2a2a2a;
+	background-color: #000000;
 	border: 0;
 	border-left: 1px solid #333;
 	outline: 0;
@@ -234,7 +234,7 @@ button:not(:-moz-focusring):focus > .main-nav__btn-box {
 }
 
 .main-nav__item:hover {
-	background-color: #444;
+	background-color: #000000;
 }
 
 .main-nav__item--active {
@@ -268,7 +268,7 @@ button:not(:-moz-focusring):focus > .main-nav__btn-box {
 	display: block;
 	width: 100%;
 	clear: both;
-	background-color: #2a2a2a;
+	background-color: #000000;
 }
 
 @media (min-width: 920px) {
@@ -329,6 +329,13 @@ button:not(:-moz-focusring):focus > .main-nav__btn-box {
 /* Taxonomies */
 .page {
 	margin-bottom: .3125rem;
+}
+
+.page__logo img {
+	float: left;
+	margin-right: 10px;
+	width: 48px;
+	height: 48px;
 }
 
 .page__title {
@@ -654,7 +661,7 @@ button:not(:-moz-focusring):focus > .main-nav__btn-box {
 .pagination {
 	margin: .3125rem 0;
 	text-align: center;
-	background-color: #2a2a2a;
+	background-color: #000000;
 }
 
 @media screen and (min-width: 480px) {
@@ -723,7 +730,7 @@ button:not(:-moz-focusring):focus > .main-nav__btn-box {
 .social__link {
 	margin: .25rem;
 	font-size: 0;
-	background-color: #2a2a2a;
+	background-color: #000000;
 	border: 1px solid #333;
 	fill: #999;
 	stroke: #999;

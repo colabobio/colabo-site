@@ -28,6 +28,12 @@ html { height: 100%; }
     *zoom: 1;
 }
 
+.logo {
+	width: 80px;
+	height: 80px;
+	margin-bottom: 30px;
+}
+
 body {
     font-family: 'Lato', Calibri, Arial, sans-serif;
     font-weight: 300;
