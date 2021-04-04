@@ -9,7 +9,7 @@
 
 			<div class="main">
 
-				<h2>Faculty</h2>
+				<h2 id="og-title-faculty" class="og-title">Faculty</h2>
 
 				<ul id="og-grid" class="og-grid">
 					{{ range $.Site.Data.team.faculty }}
@@ -21,9 +21,9 @@
 					{{ end }}
 				</ul>
 
-				<h2>Rotation Students</h2>
+				<h2 id="og-title-rot-student" class="og-title">Rotation Students</h2>
 
-				<ul id="og-grid" class="og-grid">
+				<ul id="og-grid" id="og-grid" class="og-grid">
 					{{ range $.Site.Data.team.rotation_students }}
 					<li>
 						<a href="{{.url}}" data-largesrc="{{.image}}" data-title="{{.title}}" data-description="{{.description }}" data-buttontext="{{.buttontext}}">

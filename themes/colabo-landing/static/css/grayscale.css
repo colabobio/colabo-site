@@ -208,6 +208,7 @@ header p {
 }
 
 .btn-default {
+  width: 200px;
   color: #d4242d;
   border: 1px solid #d4242d;
   background-color: transparent;
