@@ -35,6 +35,16 @@
 	
 				<h2 id="og-title-rot-collaborators" class="og-title">Collaborators</h2>
 
+				<ul id="og-grid" id="og-grid" class="og-grid">
+					{{ range $.Site.Data.team.collaborators }}
+					<li>
+						<a href="{{.url}}" data-largesrc="{{.image}}" data-title="{{.title}}" data-description="{{.description }}" data-buttontext="{{.buttontext}}">
+							<img src="{{.thumb}}" alt="{{.alt}}"/>
+						</a>
+					</li>
+					{{ end }}
+				</ul>
+
 
 				{{ partial "team/footer.html" . }}
 			</div>
