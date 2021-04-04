@@ -29,7 +29,7 @@
 	width: 0;
 	position: absolute;
 	pointer-events: none;
-	border-bottom-color: #ddd;
+	border-bottom-color: #000;
 	border-width: 15px;
 	left: 50%;
 	margin: -20px 0 0 -15px;
@@ -37,7 +37,7 @@
 
 .og-expander {
 	position: absolute;
-	background: #ddd;
+	background: #000;
 	top: auto;
 	left: 0;
 	width: 100%;
@@ -68,7 +68,7 @@
 	width: 100%;
 	top: 50%;
 	height: 1px;
-	background: #888;
+	background: #fff;
 	-webkit-transform: rotate(45deg);
 	-moz-transform: rotate(45deg);
 	transform: rotate(45deg);
@@ -82,7 +82,7 @@
 
 .og-close:hover::before,
 .og-close:hover::after {
-	background: #333;
+	background: #d4242d;
 }
 
 .og-fullimg,
@@ -113,23 +113,24 @@
 	font-size: 52px;
 	padding: 40px 0 10px;
 	margin-bottom: 10px;
+	color: #ffff;
 }
 
 .og-details p {
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 22px;
-	color: #999;
+	color: #ffff;
 }
 
 .og-details a {
 	font-weight: 700;
 	font-size: 16px;
-	color: #333;
+	color: #fff;
 	text-transform: uppercase;
 	letter-spacing: 2px;
 	padding: 10px 20px;
-	border: 3px solid #333;
+	border: 3px solid #fff;
 	display: inline-block;
 	margin: 30px 0 0;
 	outline: none;
@@ -142,8 +143,8 @@
 }
 
 .og-details a:hover {
-	border-color: #999;
-	color: #999;
+	border-color:  #d4242d;;
+	color:  #d4242d;;
 }
 
 .og-title {
