@@ -11,6 +11,23 @@ datadir = "data"
     # Provide some metadata for search and indexing services
     description = "Website of the Colubri Laboratory (Co-Labo)"
 
+    # project params
+    schema = true # Enable Schema
+    columns = 2 # Set the number of cards columns. Possible values: 1, 2, 3
+    dateFormat = "January 02, 2006" # Change the format of dates
+    colorTheme = "dark-red" # dark-green, dark-blue, dark-red, dark-violet
+    customCSS = ["css/custom.css"] # Include custom CSS files
+    customJS = ["js/custom.js"] # Include custom JS files
+    mainMenuAlignment = "right" # Align main menu (desktop version) to the right side
+    authorbox = false # Show authorbox at bottom of single pages if true
+    comments = false # Enable comments for all site pages
+    related = false # Enable Related content for single pages
+    relatedMax = 5 # Set the maximum number of elements that can be displayed in related block. Optional
+    mathjax = true # Enable MathJax for all site pages
+    #mathjaxPath = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js" # Specify MathJax path. Optional
+    #mathjaxConfig = "TeX-AMS-MML_HTMLorMML" # Specify MathJax config. Optional
+    #hideNoPostsWarning = false # Don't show no posts empty state warning in main page, if true
+
 [Author]
     name = "Andrés Colubri"
     email = "andres.colubri@umsasmed.edu"
