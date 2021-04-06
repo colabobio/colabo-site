@@ -468,6 +468,19 @@ button:not(:-moz-focusring):focus > .main-nav__btn-box {
 	line-height: 1.5;
 }
 
+.entry__figure {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 75%;
+}
+
+.entry__video {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
 .toc {
 	padding: .5rem;
 	margin-bottom: 1rem;
