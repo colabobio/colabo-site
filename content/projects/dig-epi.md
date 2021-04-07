@@ -17,7 +17,7 @@ Here at CoLabo we study the epidemiology of infectious diseases by applying nove
 
 Digital epidemiology, in its broadest definition, is epidemiology that simply uses digital data. More narrowly, it has been defined as "epidemiology that uses digital data collected for non-epidemiological purposes" ([Park et al., 2018](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6230537/); [Salathé, 2018](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5754279/)). Our current work fits both definitions, but we also envision digital tools such as outbreak simulation games serving a publich health purpose by educating participants through gamification and tracking disease spread by anonyous contact tracing and symptom reporting.
 
-## Operation Outbreak
+## Simulating outbreaks with smartphones
 
 [Operation Outbreak](https://operationoutbreak.org/) is an app-based participatory simulation platform that spreads a virtual “pathogen” via Bluetooth through users' smartphones. The plaform includes other components in addition to the smarphone app, including a web admin tool to configure the simulations and an interactive online dashboard to visualize the simulated data. 
 
@@ -35,9 +35,45 @@ Beyond the iOS and Andoid app itself, the Operation Outbreak platform also compr
 
 {{< figure class="entry__figure" src="../../img/projects/dig-epi/oo-platform.jpg" >}}
 
-### Outbreak exercises have a long history
+We currently have a fully working prototype of the entire platform as depicted in that diagram, from the app:
 
-The idea of simulating outbreaks has been carried out in many instances before Operation Outbreak, ranging from board/mobile app games such as [Pandemic](https://en.wikipedia.org/wiki/Pandemic_(board_game)) and [Plague Inc.](https://en.wikipedia.org/wiki/Plague_Inc.), training programs for epidemiologists and health responders ([Bellan et al., 2012](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1001295); [Cremin et al., 2018](https://www.sciencedirect.com/science/article/pii/S1755436517300920)), and government-level exercises to test outbreak response capacity, such as the [Crimson Contagion](https://en.wikipedia.org/wiki/Crimson_Contagion) simulation of an influenza pandemic, run by the U.S. Department of Health and Human Services in 2019.
+{{< youtube id="-S9ny7pIn8A" title="Operation Outbreak app">}}
+
+to the web admin tool for simulation organizers that can be used tto create not only simulations but also new "pathogens":
+
+{{< youtube id="bwDEgmqBaqI" title="Operation Outbreak admin tool">}}
+
+and the interactive dashboard where users can visualize the results of the simulations:
+
+{{< youtube id="P0Uflrxfifo" title="Operation Outbreak dashboard">}}
+
+### Applications of Operation Outbreak
+
+From yearly pilots we conducted at Sarasota Military Academy (SMA) Preparatory School between 2015 and 2019, and simulations at many other schools and settings (including Florida Undergraduate Research Conference, One Summer Chicago Social Distancing Ambassador program, Colorado Mesa University, Brigham Young University) between 2019 and 2021, our belief is that Operation Outbreak could increasing engagement and participation in STEM learning using broadly available mobile technologies. Beyond that application in STEM education, we also believe that Operation Outbreak could be a useful model for teaching scientific concepts, showing students that science is exciting, collaborative, and––most importantly––relevant to their lives. OO has applications [beyond education](https://www.wired.com/story/opinion-disease-simulation/) such as in outbreak preparedness and modeling:
+* Preparedness and response. Community readiness is vital for successful outbreak control (CDC, 2017; Holmes et al., 2018). OO enables professional, broader training for outbreak response in a safe, simulated environment, conveying the range of human interactions that can emerge in such complex, life-threatening situations. 
+* In-person educational continuity: The COVID-19 pandemic––which forced schools to shut down in-person instruction since March 2020––is a significant challenge to educational institutions worldwide. However, unprecedented times yield unprecedented opportunity. We have the unique chance to capitalize on the interest and momentum engendered by the current pandemic by deeply engaging students as key stakeholders in ways that can help bring them back to classrooms by using OO to do so. OO captures person-to-person proximity data, and can be used during the pandemic to conduct a real-time physical distancing assessment, providing individual and school-aggregated scorecards to participants.
+* Epidemiological modeling. OO can serve as a system for data generation and modeling of outbreaks, which, in turn, can be used to develop new tools for real-world settings and applications. It constitutes a unique source of real-time for developing new outbreak visualization and modeling tools. More generally, the platform and data analytics can help to understand socio-behavioral responses to a dangerous pathogen.
+
+In [this commentary piece](https://www.cell.com/cell/fulltext/S0092-8674(20)31084-9) published last year in the journal Cell, we shown how the data from these simulations represent the actual ground truth for pathogen spread in real life ([Moshiri et al., 2019](https://academic.oup.com/bioinformatics/article/35/11/1852/5161084)), Operation Outbreak data can also enable the validation of epidemiological models and methods for COVID-19 and future real-life outbreaks ([Edwards & Lessler, 2020](https://academic.oup.com/aje/article/190/1/17/5874603)):
+
+{{< figure class="entry__figure" src="../../img/projects/dig-epi/epi-analysis.jpg" caption="Epidemiological analysis of Operation Outbreak data" >}}
+
+### Next steps with Operation Outbreak
+
+Even though we have made signficant progress with the platform, there are many things to work on, among them:
+
+* Improve the OO app with new functionality such as virtual activities, ‘social distancing’ scorecards, and new avatar designs in order to increase engagement
+* Implement easy-to-use pathogen creator in the admin tool, so users who are not experts in epidemiology can construct their now custom outbreaks
+* Design and implement education dashboard that participants of a simulation can access to view the data and carry out exercises on data analysis and epidemiology
+* Construct new epidemiological models that can be used to parametrize OO simulations and potentially be applied to describe real-life outbreaks
+
+We also envision incorporating a "virtual genome" into the app, so the pathogen can change and "evolve" as it spreads among the simulation's participants. The synthetic sequencing data could then be used to test phylogenetic tree reconstruction methods.
+
+{{< figure class="entry__figure" src="../../img/projects/dig-epi/oo-virtual-evo.jpg" >}}
+
+### Other outbreak exercises
+
+We must point out that the idea of simulating outbreaks has been carried out in many instances before Operation Outbreak, ranging from board/mobile app games such as [Pandemic](https://en.wikipedia.org/wiki/Pandemic_(board_game)) and [Plague Inc.](https://en.wikipedia.org/wiki/Plague_Inc.), training programs for epidemiologists and health responders ([Bellan et al., 2012](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1001295); [Cremin et al., 2018](https://www.sciencedirect.com/science/article/pii/S1755436517300920)), and government-level exercises to test outbreak response capacity, such as the [Crimson Contagion](https://en.wikipedia.org/wiki/Crimson_Contagion) simulation of an influenza pandemic, run by the U.S. Department of Health and Human Services in 2019. One of the key differences between all these past projects and Operation Outbreak is that we are tyring to create an infectious education/simulaton platform that can be accessed by any school in the US, and eventually around the world, that not only provides a technology-mediated experiential learning activity, but also additional tools for educators to customize this activity to the needs and requirements of their classes and then visualize the results and download the data for further exercises in epidemiological analysis.
 
 A famous example of an (unintended) simulated outbreak in a virtual environment is the so-called [Corrupted Blood incident](https://en.wikipedia.org/wiki/Corrupted_Blood_incident) where a programming bug in the Word of Warcraft (WoW) massive multiplayer online role-playing-game resulted in a virus-like disease spreading among the players. Epidemiologists then realized that there were many parallels between a real outbreak and this virtual outbreak in WoW, particularly in terms of human behaviors ([Balicer 2007](https://journals.lww.com/epidem/fulltext/2007/03000/modeling_infectious_diseases_dissemination_through.15.aspx); [Lofgren and Fefferman, 2007](https://www.thelancet.com/journals/laninf/article/PIIS1473-3099(07)70212-8/fulltext)).
 
