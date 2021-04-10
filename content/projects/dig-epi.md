@@ -1,5 +1,5 @@
 ---
-title: "Digital Epidemiology"
+title: "Digital epidemiology and simulated outbreaks"
 index: 1
 tags:  
   - "participatory simulation"
@@ -17,7 +17,7 @@ Here at CoLabo we study the epidemiology of infectious diseases by applying nove
 
 Digital epidemiology, in its broadest definition, is epidemiology that simply uses digital data. More narrowly, it has been defined as "epidemiology that uses digital data collected for non-epidemiological purposes" ([Park et al., 2018](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6230537/); [Salathé, 2018](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5754279/)). Our current work fits both definitions, but we also envision digital tools such as outbreak simulation games serving a publich health purpose by educating participants through gamification and tracking disease spread by anonyous contact tracing and symptom reporting.
 
-## Simulating outbreaks with smartphones
+## Smartphone-based participatory outbreak simulations
 
 [Operation Outbreak](https://operationoutbreak.org/) is an app-based participatory simulation platform that spreads a virtual “pathogen” via Bluetooth through users' smartphones. The plaform includes other components in addition to the smarphone app, including a web admin tool to configure the simulations and an interactive online dashboard to visualize the simulated data. 
 
@@ -67,7 +67,7 @@ Even though we have made signficant progress with the platform, there are many t
 * Design and implement education dashboard that participants of a simulation can access to view the data and carry out exercises on data analysis and epidemiology
 * Construct new epidemiological models that can be used to parametrize OO simulations and potentially be applied to describe real-life outbreaks
 
-We also envision incorporating a "virtual genome" into the app, so the pathogen can change and "evolve" as it spreads among the simulation's participants. The synthetic sequencing data could then be used to test phylogenetic tree reconstruction methods.
+We also envision incorporating a "virtual genome" into the app, so the pathogen can change and "evolve" as it spreads among the simulation's participants. The synthetic sequencing data could then be used to test [phylogenetic tree reconstruction methods](https://beast.community/).
 
 {{< figure class="entry__figure" src="../../img/projects/dig-epi/oo-virtual-evo.jpg" >}}
 

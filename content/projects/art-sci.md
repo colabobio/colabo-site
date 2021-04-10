@@ -1,5 +1,5 @@
 ---
-title: "Art & science outreach"
+title: "STEM education outreach and sci/art experiments"
 index: 4
 copyright: "CoLabo 2021"
 ---
