@@ -12,7 +12,7 @@ categories:
 copyright: "CoLabo 2021"
 ---
 
-At CoLabo, we are looking forward to engage with the wider community through projects that have applications in STEM education and also through experimentation at the interface between science and art. Research in bioinformatics has significant social implications as the use of computational analysis of genetic and other kinds of biomedical data to find cures of disease and understand basic biological processes becomes more widespread. Therefore, involvement from people of all ages and backgrounds in scientific topics and conversations is critical to promote interest in STEM careers and to form a science-literate population that can make informed decisions on complex issues such as climate change and global pandemics. But this requires creating new opportunities for educational outreach and exploration of research concepts in formal and informal learning settings.
+At CoLabo, we are looking forward to engage with the wider community through projects that have applications in STEM education and also through experimentation at the interface between science and art. Research in bioinformatics has a growing social impact as computational study of biomedical data leads to novel treatment of diseases and other advancements. Thus, we'll aim at reaching out to the community to facilitate conversations and interest in STEM topics.
 
 <!--more-->
 
