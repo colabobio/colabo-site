@@ -15,6 +15,14 @@ alt = "Kelsey Butler"
 description = "Kelsey holds a B.A. in Psychology from the University of Vermont and a B.S. in Chemistry from Castleton University. Her current project is focused on using machine learning techniques to develop a model to predict outcome in Lassa fever patients. When she isn't in the lab, she enjoys running, yoga, and gardening."
 url = "https://github.com/KelseyB-code"
 buttontext = "GitHub page"
+[[rotation_students]]
+title = "Rachel Goldstein"
+image = "../img/full/rachel.png"
+thumb = "../img/thumbs/rachel.png"
+alt = "Rachel Goldstein"
+description = "A Texas native, Rachel graduated with a B.S. in Biochemistry and Molecular Biology from Trinity University. During her rotation Rachel is learning about the applications of epidemiological models to current outbreaks and diseases. When she gets screen fatigue and can’t binge TV shows, she likes to explore New England's hiking trails."
+url = "https://www.linkedin.com/in/rachel-goldstein-6baa1a198/"
+buttontext = "Linkedin page"
 
 [[collaborators]]
 title = "Pardis Sabeti"
