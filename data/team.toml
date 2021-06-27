@@ -14,6 +14,50 @@ alt = "Kelsey Butler"
 description = "Kelsey is a graduate student in the lab, and she holds a B.A. in Psychology from the University of Vermont and a B.S. in Chemistry from Castleton University. Her current project is focused on using machine learning techniques to develop a model to predict outcome in Lassa fever patients. When she isn't in the lab, she enjoys running, yoga, and gardening."
 url = "https://github.com/KelseyB-code"
 buttontext = "GitHub page"
+[[current_members]]
+title = "Yinan Dong"
+image = "../img/full/yinan.png"
+thumb = "../img/thumbs/yinan.png"
+alt = "Yinan Dong"
+description = "Yinan is a UX and Data Visualization designer in the lab. She recently graduated from the Information Design and Data Visualization program at Northeastern University. She is interested in learning and working how Art, Design, Science can integrate to stimulate conversations among scientists, experts, designers, artists, and the public. She enjoys spending time with her chubby cats, making drawings, and cooking in daily life."
+url = "https://www.yinandong.com/"
+buttontext = "Personal page"
+[[current_members]]
+title = "Trusting Okechukwu Inekwe"
+image = "../img/full/trusting.png"
+thumb = "../img/thumbs/trusting.png"
+alt = "Trusting Okechukwu Inekwe"
+description = "Trusting is a graduate student pursuing a PhD in Computer Science at Worcester Polytechnic Institute (WPI) and currently doing internship with the Colubri Lab. He holds a master's degree in Computer Science from WPI and a B.S. in Computer Engineering from Eastern Mediterranean University, North Cyprus. His research interests involve the creation of interactive systems that intersect science, art, and programming with the goal of improving the livelihood of target groups. His PhD research involves the creation of such interactive systems to help advance STEM education. During his free time, he enjoys singing and playing musical instruments."
+url = "https://www.linkedin.com/in/trusting-inekwe-b66a5994/"
+buttontext = "Linkedin page"
+[[current_members]]
+title = "Shannen Lin"
+image = "../img/full/shannen.png"
+thumb = "../img/thumbs/shannen.png"
+alt = "Shannen Lin"
+description = "Shannen is an undergraduate at Worcester Polytechnic Institute majoring in Computer Science and Psychology. During her time in the lab, she is working on the Operation Outbreak project to develop a prototype mobile app to test new features. In her free time, she enjoys baking and reading."
+url = "https://www.linkedin.com/in/shannen-lin-881aa0192/"
+buttontext = "Linkedin page"
+[[current_members]]
+title = "Brian Wee"
+image = "../img/full/brian.png"
+thumb = "../img/thumbs/brian.png"
+alt = "Brian Wee"
+description = "Originally from Boulder, Colorado, Brian is an undergraduate student at Harvard College studying Chemical and Physical Biology and Government. He is currently working under Andrés and Pardis on a computational epidemiology project utilizing hierarchical linear models and machine learning to analyze the impact of COVID-19 on disrupting medical care for individuals with underlying medical conditions. Outside of the lab, Brian enjoys hiking, escape rooms, and month-long lifestyle changes, along with being involved in various Harvard organizations including the World Pre-Health Conference and Harvard College Undergraduate Research Association."
+url = "https://www.linkedin.com/in/brian-wee-b68381177/"
+buttontext = "Linkedin page"
+
+[[current_members]]
+title = "Michael Fileto"
+image = "../img/full/michael.png"
+thumb = "../img/thumbs/michael.png"
+alt = "Michael Fileto"
+description = "Michael completed his Bachelor's of Science in Biology at the University of California Riverside. He became interested in studying Computer Science after taking a course in Genomics and Bioinformatics at UCR. Michael aims to bring both disciplines in Biology and CS together to create applications that transform data within Biology."
+url = "https://github.com/m-fileto"
+buttontext = "GitHub page"
+
+
+
 
 [[past_students]]
 title = "Nathan Hill"
