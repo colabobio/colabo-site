@@ -23,6 +23,14 @@ description = "Yinan is a UX and Data Visualization designer in the lab. She rec
 url = "https://www.yinandong.com/"
 buttontext = "Personal page"
 [[current_members]]
+title = "Hung Hong"
+image = "../img/full/hung.png"
+thumb = "../img/thumbs/hung.png"
+alt = "Hung Hong"
+description = "Hung is the Software Engineer in the lab. He holds an M.S. in Computer Science in WPI and a B.S. in Computer Science and Interactive Media & Game Design from WPI. He is currently in charge of full-stack management of the Operation Outbreak project. During his free time, he enjoys drawing, listening to music, and developing games for fun."
+url = "https://www.linkedin.com/in/hunghong95"
+buttontext = "Linkedin page"
+[[current_members]]
 title = "Trusting Okechukwu Inekwe"
 image = "../img/full/trusting.png"
 thumb = "../img/thumbs/trusting.png"
@@ -47,18 +55,6 @@ description = "Originally from Boulder, Colorado, Brian is an undergraduate stud
 url = "https://www.linkedin.com/in/brian-wee-b68381177/"
 buttontext = "Linkedin page"
 
-[[current_members]]
-title = "Michael Fileto"
-image = "../img/full/michael.png"
-thumb = "../img/thumbs/michael.png"
-alt = "Michael Fileto"
-description = "Michael completed his Bachelor's of Science in Biology at the University of California Riverside. He became interested in studying Computer Science after taking a course in Genomics and Bioinformatics at UCR. Michael aims to bring both disciplines in Biology and CS together to create applications that transform data within Biology."
-url = "https://github.com/m-fileto"
-buttontext = "GitHub page"
-
-
-
-
 [[past_students]]
 title = "Nathan Hill"
 image = "../img/full/nathan.png"
@@ -75,6 +71,14 @@ alt = "Rachel Goldstein"
 description = "A Texas native, Rachel graduated with a B.S. in Biochemistry and Molecular Biology from Trinity University. During her rotation, Rachel learned about the applications of epidemiological models to current outbreaks and diseases. When she gets screen fatigue and can’t binge TV shows, she likes to explore New England's hiking trails."
 url = "https://www.linkedin.com/in/rachel-goldstein-6baa1a198/"
 buttontext = "Linkedin page"
+[[past_students]]
+title = "Michael Fileto"
+image = "../img/full/michael.png"
+thumb = "../img/thumbs/michael.png"
+alt = "Michael Fileto"
+description = "Michael completed his Bachelor's of Science in Biology at the University of California Riverside. He became interested in studying Computer Science after taking a course in Genomics and Bioinformatics at UCR. Michael aims to bring both disciplines in Biology and CS together to create applications that transform data within Biology."
+url = "https://github.com/m-fileto"
+buttontext = "GitHub page"
 
 [[collaborators]]
 title = "Pardis Sabeti"
