@@ -15,6 +15,14 @@ description = "Kelsey is a graduate student in the lab, and she holds a B.A. in 
 url = "https://github.com/KelseyB-code"
 buttontext = "GitHub page"
 [[current_members]]
+title = "Winnie Mkandawire"
+image = "../img/full/winnie.png"
+thumb = "../img/thumbs/winnie.png"
+alt = "Winnie Mkandawire"
+description = "Winnie is a GSBS graduate student on rotation in the lab. She holds a MSc in Bioinformatics and Computational Biology from Worcester Polytechnic Institute, MSc in Applied Epidemiology/Biostatistics, PGDip in Bioinformatics from University of Malawi – College of Medicine and BSc in Biomedical Sciences from Mzuzu University. Her rotation project is focused on using collaborative machine learning techniques to develop a COVID-19 personalized risk prediction model. Outside the lab, she enjoys music/singing, cooking and nature visitation."
+url = "https://www.linkedin.com/in/winnie-mkandawire-3994a295/"
+buttontext = "Linkedin page"
+[[current_members]]
 title = "Yinan Dong"
 image = "../img/full/yinan.png"
 thumb = "../img/thumbs/yinan.png"
